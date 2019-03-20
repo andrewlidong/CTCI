@@ -20,7 +20,7 @@ class BST {
     }
 
     printLevelOrder() {
-        const level = [];
+        let level = [];
         let q = new Queue();
         let nextq = new Queue();
         let currNode;

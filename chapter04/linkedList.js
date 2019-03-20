@@ -1,5 +1,5 @@
-class LinkedList(value) {
-    constructor() {
+class LinkedList {
+    constructor(value) {
         this.value = value;
         this.next = null;
     }
