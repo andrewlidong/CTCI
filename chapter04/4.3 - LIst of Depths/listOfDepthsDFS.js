@@ -6,7 +6,7 @@ const listTreeByDepthOrder = tree => {
     return lists;
 }
 
-const addToList(lists, node, depth) {
+const addToList = (lists, node, depth) => {
     if (node) {
         if (!lists[depth]) {
             lists[depth] = new LinkedList();
