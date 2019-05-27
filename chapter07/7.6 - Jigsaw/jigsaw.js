@@ -96,7 +96,7 @@ class JigsawPuzzle {
         return true;
     }
 
-    firPuzzle() {
+    fitPuzzle() {
         for (let piece1 in this.jigsawGraph) {
             for (let piece2 in this.jigsawGraph) {
                 if (this.match(this.jigsawGraph[piece1], this.jigsawGraph[piece2], 'up')) {
