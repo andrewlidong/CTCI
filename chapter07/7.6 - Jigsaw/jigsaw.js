@@ -1,4 +1,3 @@
-
 class JigsawPiece {
     constructor(row, col) {
         this._position = { row: row, col: col };

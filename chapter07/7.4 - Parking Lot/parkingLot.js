@@ -20,7 +20,7 @@ class ParkingLot {
 
     exit(car) {
         if (this.carCount === 0) {
-            console.log('there are no cars here');
+            console.log('there are no cars  here');
         } else if (this.cars[car.name] === undefined) {
             console.log('the car is not in the parking lot');
         } else {
