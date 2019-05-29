@@ -48,7 +48,7 @@ const betterMinProductHelper = (smaller, bigger, memo = {}) => {
     return memo[smaller];
 };
 
-const bestMinProductHelper = (a,b) => {
+const bestMinProduct = (a,b) => {
     let bigger = a < b ? b : a;
     let smaller = a < b ? a : b;
     return bestMinProductHelper(smaller, bigger);
